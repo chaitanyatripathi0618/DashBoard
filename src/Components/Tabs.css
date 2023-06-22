@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    /* border: 1px solid black; */
+    /* background-color: #1a1a1a; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    /* justify-content:space-around ; */
+}
+.navbar ul li{
+    margin-left: 80px;
+    margin-top: 10px;
+}
