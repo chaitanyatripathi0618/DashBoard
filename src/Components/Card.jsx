@@ -41,7 +41,7 @@ export const Card = ({ filterValues }) => {
                 <p>{item.expiry}</p>
               </div>
             </div>
-            {/* Rest of the card content */}
+           
           </div>
         </div>
       ))}
