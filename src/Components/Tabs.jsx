@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './Tabs.css';
 import { Card } from './Card';
 import { Filter } from './Filter';
+import { NavLink } from 'react-router-dom';
+
 
 export const Tabs = () => {
   const [filterValues, setFilterValues] = useState({
